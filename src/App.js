@@ -4,20 +4,14 @@ import './App.css';
 import SignUp from './views/signup/signup';
 import { HashRouter, Route } from 'react-router-dom';
 
-
 class App extends Component {
-
   constructor(props){
-
     super(props);
-
     this.state = {
-
       userName:'amjad',
       password:'aaa',
       attemptedUserName:'',
-      attemptedPassword:''
-
+      attemptedPassword:'',
     };
 
     this.validateUser = this.validateUser.bind(this);
@@ -27,33 +21,22 @@ class App extends Component {
   }
 
   validateUser(attemptedUserName,attemptedPassword){
-
     if(this.state.attemptedUserName === this.state.userName){
-
       if(this.state.attemptedPassword === this.state.password){
-
         console.log("Login Successful");
+        HashRouter.push('/signup');
         return;
       }
     }
-
     console.log("Login Unsuccessful");
   }
 
   onInputUserName(attemptedUserName){
-
-    this.setState(
-      {attemptedUserName}
-    )
-
+    this.setState({attemptedUserName})
   }
 
   onInputPassword(attemptedPassword){
-
-    this.setState(
-      {attemptedPassword}
-    )
-
+    this.setState({attemptedPassword})
   }
   
   render() {
@@ -72,5 +55,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;

@@ -5,14 +5,12 @@
 }
 
 .app-container{
-
     display: flex;
     flex-direction: column;
     background-color: #effbf0;
     align-items: center;
     justify-content: center;
     height: 100%;
-
     position:fixed;
     top:0px;
     bottom:0px;
@@ -21,19 +19,15 @@
 }
 
 .koshurvagabond-form-input{
-
     border-radius: 30px;
     height: 30px;
     padding: 10px;
     font-size: 1.2em;
     border: solid 2px #0a5960;   
     width:300px;
-    
-     
 }
 
 .koshurvagabond-form-btn{
-
     border-radius: 30px;
     background-color: #50ce52;
     border: none;
@@ -46,7 +40,6 @@
 }
 
 .koshurvagabond-title-text{
-
     color: #50ce52;
     font-size: 40px;
     margin: 0;
@@ -54,16 +47,13 @@
 }
 
 .koshurvagabond-link{
-
     font-size: 20px;
 }
 
 .koshurvagabond-views-loading-container{
-
     display: flex;
     flex-direction: column;
     height: 100%;
-
     position:fixed;
     top:0px;
     bottom:0px;
