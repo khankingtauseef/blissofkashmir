@@ -1,0 +1,17 @@
+.koshurvagabond-form-FB-button{
+
+
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 330px;
+    height: 60px;
+    padding: 10px;
+
+    opacity: 0.5;
+    background-color: #bcd0c7 !important;
+    border-color: #bcd0c7 !important;
+    color: #2f3e46 !important;
+} 

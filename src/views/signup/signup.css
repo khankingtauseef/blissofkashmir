@@ -1,0 +1,21 @@
+.koshurvagabond-views-signup-form{
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+
+.koshurvagabond-views-formitem{
+
+    margin-top: 5%;
+    height: 30px;
+    text-align: left;
+}
+
+
+.koshurvagabond-views-signup-btn{
+
+    margin-top: 5%;
+}
